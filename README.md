@@ -72,6 +72,14 @@ end
 
 You can only use positional arguments, keyword ones wouldn't work.
 
+To get the return value in javascript, do the following:
+
+```javascript
+exampleFunc('a','b').then(result => {
+  alert(result);
+})
+```
+
 ### Run JS code from ruby
 
 You can invoke JS code to be run asynchrounously (the result of the execution won't be returned to you) by running
